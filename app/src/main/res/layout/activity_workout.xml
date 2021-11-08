@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".workout">
+    android:orientation="vertical"
+    tools:context=".workout"
+    >
+
+
+    <Toolbar
+        android:layout_width="438dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:titleTextAppearance="workout"></Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Set 2: Plank, Bodyweight Split Squat and Single-Leg Hip Raise"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:text="Set 1: Bodyweight Squat, Push-Ups and Mountain Climbers
+Do each of the exercises in this set for one minute each, not stopping between exercises."></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Set 1: Bodyweight Squat, Push-Ups and Mountain Climbers
-Do each of the exercises in this set for one minute each, not stopping between exercises.
-Set 2: Plank, Bodyweight Split Squat and Single-Leg Hip Raise
-Set 3: Burpee With Push-Up, Single-Leg Toe Touches and Leg Raises
-" >
+        android:text="Set 3: Burpee With Push-Up, Single-Leg Toe Touches and Leg Raises"
+        android:layout_marginTop="20dp"
 
-    </TextView>
+       ></TextView>
 
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
