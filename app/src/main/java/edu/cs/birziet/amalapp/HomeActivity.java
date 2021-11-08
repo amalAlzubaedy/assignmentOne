@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         list.add("Calculate BMI");
         list.add("Workout");
 
-        list.add("Profile");
+        list.add("Timer");
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1, list);
         listView.setAdapter(arrayAdapter);
@@ -49,10 +49,11 @@ public class HomeActivity extends AppCompatActivity {
 
 
                 } else if (position == 2) {
-
-                } else if (position == 3) {
+                    startActivity(new Intent(HomeActivity.this,Timer.class));
 
                 }
+
+
             }
         });
     }}

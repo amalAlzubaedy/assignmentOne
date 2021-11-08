@@ -10,24 +10,19 @@
     >
 
 
-    <Toolbar
-        android:layout_width="438dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
 
-        android:titleTextAppearance="workout"></Toolbar>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Set 2: Plank, Bodyweight Split Squat and Single-Leg Hip Raise"></TextView>
+        android:text="Set 1: Plank, Bodyweight Split Squat and Single-Leg Hip Raise"></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_marginTop="20dp"
-        android:text="Set 1: Bodyweight Squat, Push-Ups and Mountain Climbers
+        android:text="Set 2: Bodyweight Squat, Push-Ups and Mountain Climbers
 Do each of the exercises in this set for one minute each, not stopping between exercises."></TextView>
 
     <TextView

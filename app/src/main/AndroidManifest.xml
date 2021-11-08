@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AmalApp">
         <activity
+            android:name=".Timer"
+            android:exported="true" />
+        <activity
             android:name=".workout"
             android:exported="true" />
         <activity
             android:name=".BMI"
             android:exported="true" />
-
-
         <activity
             android:name=".HomeActivity"
             android:exported="true" />
